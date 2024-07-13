@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		BDE4D5F52C42F0E400FDE519 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE4D5F42C42F0E400FDE519 /* AppDelegate.swift */; };
 		BDE4D5F72C42F0E400FDE519 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE4D5F62C42F0E400FDE519 /* SceneDelegate.swift */; };
-		BDE4D5F92C42F0E400FDE519 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE4D5F82C42F0E400FDE519 /* ViewController.swift */; };
+		BDE4D5F92C42F0E400FDE519 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE4D5F82C42F0E400FDE519 /* HomeViewController.swift */; };
 		BDE4D5FC2C42F0E400FDE519 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BDE4D5FB2C42F0E400FDE519 /* Base */; };
 		BDE4D5FE2C42F0E600FDE519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE4D5FD2C42F0E600FDE519 /* Assets.xcassets */; };
 		BDE4D6012C42F0E600FDE519 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BDE4D6002C42F0E600FDE519 /* Base */; };
 		BDE4D60C2C42F0E600FDE519 /* CustomTabbarControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE4D60B2C42F0E600FDE519 /* CustomTabbarControllerTests.swift */; };
 		BDE4D6162C42F0E600FDE519 /* CustomTabbarControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE4D6152C42F0E600FDE519 /* CustomTabbarControllerUITests.swift */; };
 		BDE4D6182C42F0E600FDE519 /* CustomTabbarControllerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE4D6172C42F0E600FDE519 /* CustomTabbarControllerUITestsLaunchTests.swift */; };
+		BDE4D6252C42F16D00FDE519 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE4D6242C42F16D00FDE519 /* CustomTabBar.swift */; };
+		BDE4D6272C42F28900FDE519 /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE4D6262C42F28900FDE519 /* InboxViewController.swift */; };
+		BDE4D6292C42F2AE00FDE519 /* GiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE4D6282C42F2AE00FDE519 /* GiftViewController.swift */; };
+		BDE4D62B2C42F2C200FDE519 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE4D62A2C42F2C200FDE519 /* EditViewController.swift */; };
+		BDE4D62D2C42F2D800FDE519 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE4D62C2C42F2D800FDE519 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,7 @@
 		BDE4D5F12C42F0E400FDE519 /* CustomTabbarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabbarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE4D5F42C42F0E400FDE519 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDE4D5F62C42F0E400FDE519 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BDE4D5F82C42F0E400FDE519 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDE4D5F82C42F0E400FDE519 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BDE4D5FB2C42F0E400FDE519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDE4D5FD2C42F0E600FDE519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDE4D6002C42F0E600FDE519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		BDE4D6112C42F0E600FDE519 /* CustomTabbarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTabbarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE4D6152C42F0E600FDE519 /* CustomTabbarControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarControllerUITests.swift; sourceTree = "<group>"; };
 		BDE4D6172C42F0E600FDE519 /* CustomTabbarControllerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarControllerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDE4D6242C42F16D00FDE519 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		BDE4D6262C42F28900FDE519 /* InboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		BDE4D6282C42F2AE00FDE519 /* GiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftViewController.swift; sourceTree = "<group>"; };
+		BDE4D62A2C42F2C200FDE519 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		BDE4D62C2C42F2D800FDE519 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +111,12 @@
 			children = (
 				BDE4D5F42C42F0E400FDE519 /* AppDelegate.swift */,
 				BDE4D5F62C42F0E400FDE519 /* SceneDelegate.swift */,
-				BDE4D5F82C42F0E400FDE519 /* ViewController.swift */,
+				BDE4D6242C42F16D00FDE519 /* CustomTabBar.swift */,
+				BDE4D5F82C42F0E400FDE519 /* HomeViewController.swift */,
+				BDE4D6262C42F28900FDE519 /* InboxViewController.swift */,
+				BDE4D6282C42F2AE00FDE519 /* GiftViewController.swift */,
+				BDE4D62A2C42F2C200FDE519 /* EditViewController.swift */,
+				BDE4D62C2C42F2D800FDE519 /* SettingViewController.swift */,
 				BDE4D5FA2C42F0E400FDE519 /* Main.storyboard */,
 				BDE4D5FD2C42F0E600FDE519 /* Assets.xcassets */,
 				BDE4D5FF2C42F0E600FDE519 /* LaunchScreen.storyboard */,
@@ -258,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDE4D5F92C42F0E400FDE519 /* ViewController.swift in Sources */,
+				BDE4D6272C42F28900FDE519 /* InboxViewController.swift in Sources */,
+				BDE4D6252C42F16D00FDE519 /* CustomTabBar.swift in Sources */,
+				BDE4D5F92C42F0E400FDE519 /* HomeViewController.swift in Sources */,
+				BDE4D62D2C42F2D800FDE519 /* SettingViewController.swift in Sources */,
 				BDE4D5F52C42F0E400FDE519 /* AppDelegate.swift in Sources */,
+				BDE4D6292C42F2AE00FDE519 /* GiftViewController.swift in Sources */,
 				BDE4D5F72C42F0E400FDE519 /* SceneDelegate.swift in Sources */,
+				BDE4D62B2C42F2C200FDE519 /* EditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
